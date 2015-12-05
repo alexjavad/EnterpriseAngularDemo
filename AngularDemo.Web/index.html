@@ -1,0 +1,36 @@
+﻿<!--Place links at top to provide navigation to developers, colors and favoritecolors pages
+This will be a singe page app, so other pages should all display in this page.-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="appDemo">
+<head>
+    <title>AngularDemo.Web</title>
+    <link href="Content/bootstrap.css" rel="stylesheet">
+    <link href="Content/main.css" rel="stylesheet"/>
+    <link href="Content/xeditable.css" rel="stylesheet" />
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#/developers">Developers</a></li>
+            <li><a href="#/colors">Colors</a></li>
+            <li><a href="#/favoritecolors">Favorite Colors</a></li>
+        </ul>
+    </nav>
+
+    <div ng-view></div>
+    <!-- Application Dependencies -->
+    <script src="Scripts/angular.js"></script>
+    <!--<script src="Scripts/xeditable.js"></script>-->
+    <script src="Scripts/jquery-1.10.2.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <!-- Application Scripts -->
+    <script src="app.js"></script>
+    <script src="Scripts/controllers/devController.js"></script>
+    <script src="Scripts/controllers/colorController.js"></script>
+    <script src="Scripts/controllers/favColorController.js"></script>
+    <script src="Scripts/services/developerService.js"></script>
+    <script src="Scripts/services/colorService.js"></script>
+    <script src="Scripts/services/favColorService.js"></script>
+</body>
+</html>

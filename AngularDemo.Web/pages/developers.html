@@ -1,0 +1,18 @@
+﻿<!--DISPLAY DEVELOPERS IN TABLE-->
+<h1>Developers</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="row in rowCollection">
+            <td>{{row.Id}}</td>
+            <td>{{row.FirstName}}</td>
+            <td>{{row.LastName}}</td>
+        </tr>
+    </tbody>
+</table>

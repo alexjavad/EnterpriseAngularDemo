@@ -1,0 +1,31 @@
+2015-07-19 10:25:11.5545|ERROR|AngularDemo.DAL.DapperBase|Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index,DapperBase.GetSingle<T>,Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2015-07-19 10:25:32.2058|ERROR|AngularDemo.DAL.DapperBase|Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index,DapperBase.GetSingle<T>,Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2015-07-19 10:25:43.0373|ERROR|AngularDemo.DAL.DapperBase|Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index,DapperBase.GetSingle<T>,Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2015-07-19 10:26:31.8957|ERROR|AngularDemo.DAL.DapperBase|The connection was not closed. The connection's current state is open.,DapperBase.ExecuteNonQueryWithOutputParam<T>,The connection was not closed. The connection's current state is open.
+2015-07-19 10:26:50.3319|ERROR|AngularDemo.DAL.DapperBase|ExecuteReader requires an open and available Connection. The connection's current state is closed.,DapperBase.ExecuteNonQueryWithOutputParam<T>,ExecuteReader requires an open and available Connection. The connection's current state is closed.
+2015-07-19 10:27:57.4654|ERROR|AngularDemo.DAL.DapperBase|The connection was not closed. The connection's current state is connecting.,DapperBase.ExecuteNonQueryWithOutputParam<T>,The connection was not closed. The connection's current state is connecting.
+2015-07-19 10:29:24.1132|ERROR|AngularDemo.DAL.DapperBase|Object reference not set to an instance of an object.,DapperBase.ExecuteNonQueryWithOutputParam<T>,Object reference not set to an instance of an object.
+2015-07-19 10:31:20.9326|ERROR|AngularDemo.DAL.DapperBase|The connection was not closed. The connection's current state is open.,DapperBase.ExecuteNonQueryWithOutputParam<T>,The connection was not closed. The connection's current state is open.
+2015-07-19 10:31:51.0976|ERROR|AngularDemo.DAL.DapperBase|The connection was not closed. The connection's current state is connecting.,DapperBase.ExecuteNonQueryWithOutputParam<T>,The connection was not closed. The connection's current state is connecting.
+2015-07-19 11:20:35.4185|ERROR|AngularDemo.DAL.DapperBase|Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index,DapperBase.GetSingle<T>,Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2015-07-19 11:20:42.5472|ERROR|AngularDemo.DAL.DapperBase|Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index,DapperBase.GetSingle<T>,Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2015-07-19 11:51:59.4729|ERROR|AngularDemo.DAL.DapperBase|Object reference not set to an instance of an object.,DapperBase.ExecuteNonQueryWithOutputParam<T>,Object reference not set to an instance of an object.
+2015-07-19 11:58:38.1468|ERROR|AngularDemo.DAL.DapperBase|Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index,DapperBase.GetSingle<T>,Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2015-07-19 11:58:38.5438|ERROR|AngularDemo.DAL.DapperBase|Object reference not set to an instance of an object.,DapperBase.GetSingle<T>,Object reference not set to an instance of an object.
+2015-07-19 12:02:47.1887|ERROR|AngularDemo.DAL.DapperBase|Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index,DapperBase.GetSingle<T>,Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2015-07-19 12:39:33.7103|ERROR|AngularDemo.DAL.DapperBase|A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server),DapperBase.GetList<T>,A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2015-07-19 12:39:33.7103|ERROR|AngularDemo.DAL.DapperBase|A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server),DapperBase.GetList<T>,A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)

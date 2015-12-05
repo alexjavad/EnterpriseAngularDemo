@@ -1,0 +1,71 @@
+﻿<!--DISPLAY FAVORITE COLOR FOR EACH DEVELOPER-->
+<h1>Favorite Colors</h1>
+
+<select ng-model="selectedDev" ng-options="dev.FullName for dev in devs">
+    <option value=''>- Select Developer -</option>
+</select>
+<select ng-model="selectedColor" ng-options="c.Color for c in colors">
+    <option value=''>- Select Color -</option>
+</select>
+<button type="button" ng-click="storeFavColor()" class="btn btn-sm btn-success">
+    <i class="glyphicon glyphicon-plus">
+    </i> Add Record
+</button>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Developer</th>
+            <th>Favorite Color</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="row in favColorPairs">
+            <td>{{row.Id}}</td>
+            <td>{{row.Developer}}</td>
+            <td>{{row.Color}}</td>
+            <td>
+                <button class="btn btn-sm" ng-click="editFavorite(row)">
+                    <span class="glyphicon glyphicon-pencil"></span> Edit
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<div ng-show="edit">
+    <h3>Edit Favorite Color:</h3>
+
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Developer:</label>
+            <div class="col-sm-10">{{editFavModel.Developer}}</div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Color:</label>
+            <div class="col-sm-10">
+                <select id="editColor" ng-model="editColor" ng-options="c.Color for c in colors">
+                    <option value=''>- Select Color -</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <span class="col-sm-10">
+                <button id="submitForm" class="btn btn-success" ng-click="UpdateFavoriteColor(editFavModel)">
+                    <span class="glyphicon glyphicon-save">Save</span>
+                </button>
+            </span>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-10">
+                <button id="cancelForm" class="btn" ng-click="cancelForm()">
+                    <span class="glyphicon glyphicon-ban-circle">Cancel</span>
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
